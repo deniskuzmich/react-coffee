@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/react-coffee/static/css/main.cbd72043.css",
+    "main.js": "/react-coffee/static/js/main.6af46c64.js",
+    "static/media/main-page.jpg": "/react-coffee/static/media/main-page.fcf792d3873ca5014a5c.jpg",
+    "static/media/couple_3.png": "/react-coffee/static/media/couple_3.374f85411241e336d32f.png",
+    "static/media/couple_1.png": "/react-coffee/static/media/couple_1.84156b7a2a25167d7e33.png",
+    "static/media/couple_2.png": "/react-coffee/static/media/couple_2.f5222da379ea508f97b5.png",
+    "static/media/couple_5.png": "/react-coffee/static/media/couple_5.037f7d46d546661c3cc0.png",
+    "static/media/vietnam.png": "/react-coffee/static/media/vietnam.b4b488ed94ccd271451e.png",
+    "static/media/couple_4.png": "/react-coffee/static/media/couple_4.037edad44d2536bd64db.png",
+    "static/media/brazilian.png": "/react-coffee/static/media/brazilian.c04ca791e57f1707f9fb.png",
+    "static/media/beans.png": "/react-coffee/static/media/beans.9551a7d93507fc72c4c8.png",
+    "static/media/indonesian.png": "/react-coffee/static/media/indonesian.db1aa7d7f93aaf9ad460.png",
+    "static/media/OpenSans-Regular.ttf": "/react-coffee/static/media/OpenSans-Regular.d7d7b8359eeb9cddfba6.ttf",
+    "static/media/OpenSans-SemiBold.ttf": "/react-coffee/static/media/OpenSans-SemiBold.d7261533b9a545ddc769.ttf",
+    "static/media/beans_2.png": "/react-coffee/static/media/beans_2.25ddcb5a58e9dbc05876.png",
+    "static/media/couple_6.png": "/react-coffee/static/media/couple_6.a3fd8a78b575bfa6cb5d.png",
+    "static/media/JosefinSans-Bold.ttf": "/react-coffee/static/media/JosefinSans-Bold.958fefb32cf3d337d5bf.ttf",
+    "static/media/coffee-logo.svg": "/react-coffee/static/media/coffee-logo.df6b85d69f4eeb6bb79d9a8d0d595a7f.svg",
+    "static/media/phone.svg": "/react-coffee/static/media/phone.7e4d431e0a09e5fe3fbf75a851254a57.svg",
+    "static/media/cart.svg": "/react-coffee/static/media/cart.3fd2c8e01f3ea1f17a1ff08ad5b28370.svg",
+    "static/media/linked.svg": "/react-coffee/static/media/linked.3f575e87b3dce442f4fc3192c828f0a5.svg",
+    "static/media/insta.svg": "/react-coffee/static/media/insta.2b2bc7c4e30ff4c2a0db23c370c97179.svg",
+    "static/media/twitter.svg": "/react-coffee/static/media/twitter.1a50a8e88f76cde80d71309a4d76299b.svg",
+    "index.html": "/react-coffee/index.html",
+    "static/media/search.svg": "/react-coffee/static/media/search.8e9f6b14dc8b72f8565ceb930668c51a.svg",
+    "static/media/facebook.svg": "/react-coffee/static/media/facebook.0c1a625e06277f6950aa2345dead8369.svg",
+    "static/media/gmail.svg": "/react-coffee/static/media/gmail.f523f7ab95f386d5ae4626e20bc1766b.svg",
+    "main.cbd72043.css.map": "/react-coffee/static/css/main.cbd72043.css.map",
+    "main.6af46c64.js.map": "/react-coffee/static/js/main.6af46c64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbd72043.css",
+    "static/js/main.6af46c64.js"
+  ]
+}
