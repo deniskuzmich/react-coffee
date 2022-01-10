@@ -1,0 +1,48 @@
+.gallery {
+    &__title {
+        font-size: 43px;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 140px;
+    }
+    &__subtitle {
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 20px;
+    }
+    &__photos {
+        position: relative;
+        width: 1176px;
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__img {
+        padding: 15px;
+    }
+    .absolute {
+        position: relative;
+        bottom: 100px;
+    }
+    &__load-btn {
+        position: relative;
+        bottom: 60px;
+    }
+    &__hr {
+        width: 460px;
+        border: 1px solid #0D0402;
+        background-color: #000;
+        height: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    &__btn {
+        display: block;
+        color: #FF4B32;
+        font-size: 18px;
+        font-weight: 400;
+        background: none;
+        margin: 15px auto;
+    }
+}

@@ -1,0 +1,92 @@
+.offer {
+    &__title {
+        margin-top: 140px;
+        font-size: 43px;
+        color: #000000;
+        font-weight: 600;
+    }
+    &__text {
+        margin-top: 20px;
+        line-height: 28px;
+        width: 506px;
+        font-size: 18px;
+        color: #000000;
+        font-weight: 400;
+    }
+    &__wrapper {
+        margin-top: 60px;
+        display: flex;
+        align-items: baseline;
+    }
+    &__coffee {
+        margin-right: 92px;
+    }
+    &__price {
+        margin-top: 35px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    &__name {
+        margin-top: 10px;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    &__descr {
+        width: 257px;
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+    &__buttons {
+        margin-top: 30px;
+        display: flex;
+    }
+    &__btn {
+        display: block;
+        width: 167px;
+        height: 57px;
+        font-size: 18px;
+        color: #ffff;
+        background-color: #FF4B32;
+        border-radius: 5px;
+        margin-left: 20px;
+        cursor: pointer;
+        font-weight: 700;
+    }
+    &__calc {
+        width: 114px;
+        height: 57px;
+        border: 1px solid #000000;
+        display: flex;
+        justify-content: space-between;
+        &-numb {
+            font-size: 24px;
+            padding: 13px 21px;
+            border-right: 1px solid #000000;
+        }
+        &-operation {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            margin-right: 20px;
+            hr {
+                background-color: #000000;
+                position: absolute;
+                width: 55px;
+                top: 29px;
+                right: -20px;
+                height: 1px;
+            }
+        }
+        &-plus {
+            font-size: 24px;
+            background: none;
+            // border-bottom: 1px solid #000000;
+        }
+        &-minus {
+            font-size: 24px;
+            background: none;
+        }
+    }
+}
