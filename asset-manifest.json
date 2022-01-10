@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-coffee/static/css/main.cbd72043.css",
+    "main.css": "/react-coffee/static/css/main.33863415.css",
     "main.js": "/react-coffee/static/js/main.6af46c64.js",
     "static/media/main-page.jpg": "/react-coffee/static/media/main-page.fcf792d3873ca5014a5c.jpg",
     "static/media/couple_3.png": "/react-coffee/static/media/couple_3.374f85411241e336d32f.png",
@@ -27,11 +27,11 @@
     "static/media/search.svg": "/react-coffee/static/media/search.8e9f6b14dc8b72f8565ceb930668c51a.svg",
     "static/media/facebook.svg": "/react-coffee/static/media/facebook.0c1a625e06277f6950aa2345dead8369.svg",
     "static/media/gmail.svg": "/react-coffee/static/media/gmail.f523f7ab95f386d5ae4626e20bc1766b.svg",
-    "main.cbd72043.css.map": "/react-coffee/static/css/main.cbd72043.css.map",
+    "main.33863415.css.map": "/react-coffee/static/css/main.33863415.css.map",
     "main.6af46c64.js.map": "/react-coffee/static/js/main.6af46c64.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbd72043.css",
+    "static/css/main.33863415.css",
     "static/js/main.6af46c64.js"
   ]
 }
