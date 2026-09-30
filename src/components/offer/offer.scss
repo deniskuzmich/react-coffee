@@ -53,40 +53,61 @@
         margin-left: 20px;
         cursor: pointer;
         font-weight: 700;
+        transition: background-color 0.3s;
+        &_added {
+            background-color: #3bb54a;
+        }
+    }
+    &__fly-img {
+        position: fixed;
+        z-index: 200;
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+        pointer-events: none;
+        animation: fly-to-cart 0.8s ease-in forwards;
     }
     &__calc {
         width: 114px;
         height: 57px;
         border: 1px solid #000000;
+        border-radius: 5px;
         display: flex;
-        justify-content: space-between;
+        align-items: stretch;
+        overflow: hidden;
         &-numb {
-            font-size: 24px;
-            padding: 13px 21px;
+            width: 40px;
+            border: none;
+            border-left: 1px solid #000000;
             border-right: 1px solid #000000;
+            font-size: 24px;
+            text-align: center;
+            outline: none;
         }
-        &-operation {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            margin-right: 20px;
-            hr {
-                background-color: #000000;
-                position: absolute;
-                width: 55px;
-                top: 29px;
-                right: -20px;
-                height: 1px;
+        &-btn {
+            flex: 1;
+            font-size: 24px;
+            line-height: 1;
+            background: none;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            &:hover {
+                background-color: #f2f2f2;
             }
         }
-        &-plus {
-            font-size: 24px;
-            background: none;
-            // border-bottom: 1px solid #000000;
-        }
-        &-minus {
-            font-size: 24px;
-            background: none;
-        }
+    }
+    &__empty {
+        font-size: 18px;
+        color: #8a8a8a;
+    }
+}
+
+@keyframes fly-to-cart {
+    60% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(var(--fly-x), var(--fly-y)) scale(0.1);
+        opacity: 0.2;
     }
 }

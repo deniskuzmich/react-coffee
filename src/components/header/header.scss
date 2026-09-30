@@ -19,12 +19,130 @@
     &__link {
         padding:0 26px;
         color: #8a8a8a;
-        a:hover {
-            color: #FF4B32;
+        a {
+            &::after {
+                content: attr(data-text);
+                display: block;
+                height: 0;
+                font-weight: 700;
+                visibility: hidden;
+                overflow: hidden;
+            }
+            &:hover {
+                color: #FF4B32;
+                font-weight: 700;
+            }
+        }
+    }
+    &__cart {
+        position: relative;
+        background: none;
+        cursor: pointer;
+        &-badge {
+            position: absolute;
+            top: -6px;
+            right: -8px;
+            min-width: 20px;
+            height: 20px;
+            padding: 0 5px;
+            border-radius: 10px;
+            background-color: #FF4B32;
+            color: #ffff;
+            font-size: 13px;
             font-weight: 700;
+            line-height: 20px;
+            text-align: center;
+            animation: badge-pop 0.4s ease;
         }
     }
     &__search {
+        position: relative;
+        display: flex;
+        align-items: center;
         margin: 0 38px 0 60px;
+        &-input {
+            width: 180px;
+            height: 40px;
+            margin-right: 12px;
+            padding: 0 14px;
+            font-size: 16px;
+            color: #ffff;
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-radius: 20px;
+            outline: none;
+            &::placeholder {
+                color: rgba(255, 255, 255, 0.6);
+            }
+        }
+        &-btn {
+            background: none;
+            cursor: pointer;
+        }
+        &-results {
+            position: absolute;
+            top: calc(100% + 12px);
+            right: 0;
+            width: 300px;
+            padding: 10px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+            animation: search-drop 0.25s ease;
+        }
+        &-item {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 10px;
+            border-radius: 8px;
+            background: none;
+            text-align: left;
+            cursor: pointer;
+            &:hover {
+                background-color: #f5f5f5;
+            }
+            img {
+                width: 44px;
+                height: 44px;
+                object-fit: contain;
+            }
+            &-info {
+                margin-left: 12px;
+            }
+            &-name {
+                font-size: 15px;
+                font-weight: 600;
+                color: #000000;
+            }
+            &-price {
+                margin-top: 4px;
+                font-size: 14px;
+                color: #8a8a8a;
+            }
+        }
+        &-empty {
+            padding: 14px;
+            font-size: 15px;
+            color: #8a8a8a;
+            text-align: center;
+        }
+    }
+}
+
+@keyframes badge-pop {
+    50% {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes search-drop {
+    0% {
+        transform: translateY(-8px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
     }
 }
